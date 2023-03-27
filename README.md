@@ -36,6 +36,15 @@ Get the output as a pickled file out of the built model
 
     regmodel.pkl and scaling.pkl
 
+Create a templates folder to write all the html code
+
+    home.html
+
+Create the required folder for beanstalk deployment
+
+    .ebextentions
+    .elasticbeanstalk
+
 Finally add all the file to github
 
     git add .
