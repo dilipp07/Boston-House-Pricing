@@ -4,7 +4,7 @@
 
 1. [Github Accounts](https://github.com)
 
-2. [HerokuAccount](https://www.heroku.com/)
+2. [AWSAccount](https://aws.amazon.com/)
 
 3. [VSCodeIDE](https://code.visualstudio.com/Download)
 
@@ -23,6 +23,25 @@ Activate the enviornment
 Update Requirement libraries
 
     pip install -r requirements.txt
+
+Create a pythonic file in which web application is made using flask
+
+    application.py
+
+Build the machine learning model using jupyter notebook
+     
+    file_name.ipynb
+
+Get the output as a pickled file out of the built model
+
+    regmodel.pkl and scaling.pkl
+
+Finally add all the file to github
+
+    git add .
+    git status
+    git commit -m "comments"
+    git push origin main
 
 
 
